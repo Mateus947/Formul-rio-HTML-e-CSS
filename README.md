@@ -1,1 +1,1 @@
-# Formul-rio-HTML-e-CSS
+Repositório onde se encontram códigos referentes a um formulário utilizando HTML e CSS básico.
