@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./src/assets/styles/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Cadastro de DEV's</h1>
+    </header>
+
+    <main>
+        <form>
+            <p class="text_inf">Complete suas informações</p>
+
+            <section class="dados_pessoais">
+                <fieldset >
+                    <div class="div_nome">   
+                        <label for="" class="label_nome"><strong>Nome:</strong>
+                            <input class="input_nome"  type="text" required>
+                        </label>
+                   
+                    <div class="div_nome">
+                        <label for="" class="label_nome"><strong>Sobrenome:</strong>
+                            <input class="input_nome" type="text" required>
+                        </label>
+                    </div>
+                    </fieldset>
+
+                    <div id="div_email">
+                        <label for=""><strong>Email</strong>
+                        </label>
+                        <input type="email" name="" id="input_email" required>
+                    </div>
+                
+                    <div id="div_type_dev">
+                    </div>
+                </fieldset>
+            </section>
+           
+            
+            <section>
+                <p class="type_dev" id="text_type_dev"><strong>De qual lado da aplicação você desenvolve: </strong>  </p>
+                    <div class="type_dev" >
+                        <input type="radio" name="type_dev" id="frontend">
+                        <label  for="type_dev">Front-end</label>
+                    </div>
+    
+                    <div class="type_dev">
+                        <input type="radio" name="type_dev" id="backend">
+                        <label  for="type_dev">Back-end</label>
+                    </div>
+                    
+                    <div class="type_dev">
+                        <input type="radio" name="type_dev" id="fullstack">
+                        <label  for="type_dev">Fullstack</label>
+                    </div>
+            </section>
+            
+            <section class="senioridade">
+                <p id="text_seneriodade"><strong>Seneriodade: </strong></p>
+                <select name="" id="select">
+                    <option value="">Selecione</option>
+                    <option value="">Junior</option>
+                    <option value="">Pleno</option>
+                    <option value="">Senior</option>
+                </select>
+            </section>
+            
+            <section class="tecnologias_usadas">
+                <fieldset >
+                    <p>
+                        <strong>Selecione as tecnologias que utiliza:</strong>
+                    </p>
+                    <div class="campo_tecnology">
+                        <input type="checkbox" name="" id="">
+                        <label for="">HTML</label>
+        
+                        <input type="checkbox" name="" id="">
+                        <label for="">CSS</label>
+        
+                        <input type="checkbox" name="" id="">
+                        <label for="">JavaScript</label>
+        
+                        <input type="checkbox" name="" id="">
+                        <label for="">PHP</label>
+        
+                        <input type="checkbox" name="" id="">
+                        <label for="">C#</label>
+        
+                        <input type="checkbox" name="" id="">
+                        <label for="">Python</label>
+        
+                        <input type="checkbox" name="" id="">
+                        <label for="">Java</label>
+                    </div>
+                </fieldset>
+            </section>
+            
+            <div>
+                <p class="text_xp"><strong>Conte um pouco mais da sua experência: </strong></p>
+                <textarea id="text_area" name="" id="" cols="30" rows="10"></textarea>
+                <button id="btn_finish">Concluído</button>
+            </div>
+        </form>
+        
+    </main>
+    <footer>
+        <p id="copyright">&copy;Mateus</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
